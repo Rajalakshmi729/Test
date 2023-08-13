@@ -17,6 +17,7 @@ public class testflow {
 	 
 	 driver.get("http://170.187.239.121:8081/");
 	 driver.findElement(By.xpath("//a[text()='Login']")).click();
+	 System.out.println("Login successfully");
 
 	}
 	public static void main(String[] args) {
